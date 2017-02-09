@@ -4,6 +4,5 @@ from . import views
 #url(r'^admin/$', views.admin)
 
 urlpatterns = [	
-	url(r'^hira/$', views.hira),
-	url(r'^josefina/$', views.josefina)
+	url(r'^post_list/$', views.post_list),	
 ]
