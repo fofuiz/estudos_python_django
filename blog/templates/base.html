@@ -1,0 +1,18 @@
+<html>
+
+<body>
+    <div class="page-header">
+        <h1><a href="/">Hiramuki´s Blog</a></h1>
+        <a href="{% url 'blog.views.post_new' %}">Adicionar novo post</a>
+    </div>
+    <div class="content container">
+        <div class="row">
+            <div class="col-md-8">
+            {% block content %}
+            {% endblock %}
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
